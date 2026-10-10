@@ -7,6 +7,7 @@ const requiredRoutes = [
   "/experience",
   "/case-studies",
   "/delivery-method",
+  "/plan",
   "/risk-data-reporting",
   "/technology",
   "/role-alignment",

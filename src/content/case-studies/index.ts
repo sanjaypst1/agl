@@ -21,6 +21,12 @@ export function getFeaturedCaseStudies(): CaseStudy[] {
   return caseStudies.filter((study) => study.featured);
 }
 
+export function getDiscussionReadyCaseStudies(): CaseStudy[] {
+  return caseStudies
+    .filter((study) => study.discussionReady)
+    .sort((a, b) => (a.discussionRank ?? 99) - (b.discussionRank ?? 99));
+}
+
 export function getCaseStudiesByIds(ids: string[]): CaseStudy[] {
   return ids
     .map((id) => caseStudies.find((study) => study.id === id))

@@ -1,5 +1,6 @@
 import { AccountabilityBand } from "@/components/home/AccountabilityBand";
 import { ClosingNarrative } from "@/components/home/ClosingNarrative";
+import { DiscussionReadyProducts } from "@/components/home/DiscussionReadyProducts";
 import { FlagshipUbs } from "@/components/home/FlagshipUbs";
 import { Hero } from "@/components/home/Hero";
 import { LifecycleStepper } from "@/components/home/LifecycleStepper";
@@ -10,6 +11,7 @@ import { SourceToDecision } from "@/components/home/SourceToDecision";
 import { TechBoundaries } from "@/components/home/TechBoundaries";
 import { ThreeQuestions } from "@/components/home/ThreeQuestions";
 import { TransferabilityBand } from "@/components/home/TransferabilityBand";
+import { Plan306090 } from "@/components/plan/Plan306090";
 import { RiskDataNetwork } from "@/components/three/RiskDataNetwork";
 
 export default function HomePage() {
@@ -17,6 +19,7 @@ export default function HomePage() {
     <>
       <Hero />
       <ThreeQuestions />
+      <DiscussionReadyProducts />
       <ReportingProducts />
       <FlagshipUbs />
       <RiskKnowledge />
@@ -24,6 +27,7 @@ export default function HomePage() {
       <RiskDataNetwork />
       <TechBoundaries />
       <LifecycleStepper />
+      <Plan306090 />
       <TransferabilityBand />
       <OutcomesSection />
       <AccountabilityBand />

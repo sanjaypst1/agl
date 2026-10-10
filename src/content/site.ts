@@ -21,14 +21,15 @@ export const primaryNav: NavItem[] = [
   { href: "/", label: "Overview" },
   { href: "/case-studies", label: "Reporting Products" },
   { href: "/delivery-method", label: "Delivery Method" },
+  { href: "/plan", label: "30-60-90 Plan" },
   { href: "/risk-data-reporting", label: "Risk & Data" },
   { href: "/technology", label: "Technology" },
   { href: "/walkthrough", label: "Walkthrough" },
-  { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },
 ];
 
 export const secondaryNav: NavItem[] = [
+  { href: "/about", label: "About" },
   { href: "/experience", label: "Experience" },
   { href: "/role-alignment", label: "Role Alignment" },
   { href: "/evidence", label: "Evidence" },

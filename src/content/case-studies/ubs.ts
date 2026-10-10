@@ -15,6 +15,16 @@ export const ubsCaseStudy: CaseStudy = {
   flagship: true,
   featured: true,
   featuredAngle: "Flagship personal delivery of a consolidated risk and control reporting product",
+  discussionReady: true,
+  discussionRank: 1,
+  reportTypeLabel: "Operational risk, control and remediation reporting",
+  domainCoverage: [
+    "Operational risk",
+    "Technology and data-control governance",
+    "Treasury and trading support where control failures affect reporting reliability",
+  ],
+  discussionTalkTrack:
+    "At UBS I personally led a consolidated risk, control and remediation reporting product. Risk information lived in spreadsheets, programme reports, incident records, control registers and remediation trackers, so leaders could not reliably see high and critical risks, failed controls, repeat incidents, feed failures, overdue actions or risk acceptances nearing expiry. I worked with technology, operations, risk and treasury stakeholders to agree KPIs, sources, owners, thresholds and escalation rules. I coordinated the logical information model across risks, controls, incidents, systems, owners and actions; validated reported figures against source records; and embedded the views into governance forums. This product shows my working knowledge of operational-risk and governance frameworks. It is not a quantitative market-risk engine, but it is directly relevant wherever trading or treasury decisions depend on trusted control, incident and remediation visibility.",
   evidenceStatus: "sanitised",
   summary:
     "I personally led delivery of a consolidated risk and control reporting product that replaced fragmented spreadsheets, programme reports, incident records, control registers and remediation trackers with one governed management view.",

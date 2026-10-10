@@ -71,6 +71,24 @@ export function CaseStudyView({ study }: { study: CaseStudy }) {
       </PageHero>
 
       <div className="container-site pb-16">
+        {study.discussionReady ? (
+          <Section title="How I walk this product in discussion">
+            <div className="surface border-l-4 border-l-teal p-5">
+              <p className="text-sm font-semibold text-teal">{study.reportTypeLabel}</p>
+              <ul className="mt-3 flex flex-wrap gap-2">
+                {(study.domainCoverage ?? []).map((domain) => (
+                  <li
+                    key={domain}
+                    className="rounded-full bg-violet-soft px-2.5 py-1 text-xs font-semibold text-violet"
+                  >
+                    {domain}
+                  </li>
+                ))}
+              </ul>
+              <p className="mt-4 leading-relaxed text-navy-800">{study.discussionTalkTrack}</p>
+            </div>
+          </Section>
+        ) : null}
         <Section title="Executive summary">
           <p>{study.summary}</p>
         </Section>
@@ -115,7 +133,7 @@ export function CaseStudyView({ study }: { study: CaseStudy }) {
             ))}
           </div>
         </Section>
-        <Section title="Sanjay’s personal accountability">
+        <Section title="What I personally owned">
           <BulletList items={study.accountability} />
         </Section>
         <Section title="Stakeholders">

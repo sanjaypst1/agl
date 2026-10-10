@@ -55,12 +55,12 @@ export function Hero() {
           operational support.
         </p>
         <div data-hero-item className="mt-7 mb-8 flex flex-wrap gap-3">
-          <Button href="/case-studies">
-            Explore the reporting products
+          <Button href="/#discussion-ready">
+            Explore my discussion-ready products
             <ArrowRight className="h-4 w-4" aria-hidden />
           </Button>
-          <Button href="/delivery-method" variant="secondary">
-            See how I deliver
+          <Button href="/plan" variant="secondary">
+            View my 30-60-90 day plan
           </Button>
         </div>
         <ul className="mt-2 grid list-none grid-cols-1 gap-2.5 p-0 sm:grid-cols-2">

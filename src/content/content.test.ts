@@ -1,6 +1,11 @@
 import { describe, expect, it } from "vitest";
-import { caseStudies, caseStudySlugs } from "./case-studies";
+import {
+  caseStudies,
+  caseStudySlugs,
+  getDiscussionReadyCaseStudies,
+} from "./case-studies";
 import { interviewQuestions } from "./interview-questions";
+import { planPhases } from "./plan-306090";
 import { roleAlignments } from "./role-alignment";
 import { technologyCapabilities } from "./technology";
 import { syntheticExceptions } from "./investigation-lab";
@@ -61,5 +66,33 @@ describe("content integrity", () => {
       expect(study.flagship === true ? study.id === "ubs" : true).toBe(true);
     }
     expect(caseStudies.some((study) => study.flagship)).toBe(true);
+  });
+
+  it("keeps three discussion-ready products covering market, credit and operational risk", () => {
+    const ready = getDiscussionReadyCaseStudies();
+    expect(ready).toHaveLength(3);
+    expect(ready.map((study) => study.id)).toEqual([
+      "ubs",
+      "nab",
+      "bank-of-america",
+    ]);
+    for (const study of ready) {
+      expect(study.discussionTalkTrack).toMatch(/\bI\b/);
+      expect(study.reportTypeLabel?.length).toBeGreaterThan(0);
+      expect(study.domainCoverage?.length).toBeGreaterThan(0);
+    }
+    const joined = ready
+      .flatMap((study) => study.domainCoverage ?? [])
+      .join(" ")
+      .toLowerCase();
+    expect(joined).toContain("operational risk");
+    expect(joined).toContain("credit risk");
+    expect(joined).toContain("market risk");
+    expect(joined).toMatch(/trading|treasury/);
+  });
+
+  it("exposes a three-phase 30-60-90 plan", () => {
+    expect(planPhases).toHaveLength(3);
+    expect(planPhases.map((phase) => phase.id)).toEqual(["30", "60", "90"]);
   });
 });

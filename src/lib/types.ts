@@ -190,6 +190,11 @@ export interface CaseStudy {
   evidenceStatus: EvidenceStatus;
   featured?: boolean;
   featuredAngle?: string;
+  discussionReady?: boolean;
+  discussionRank?: number;
+  reportTypeLabel?: string;
+  domainCoverage?: string[];
+  discussionTalkTrack?: string;
   seo: {
     title: string;
     description: string;

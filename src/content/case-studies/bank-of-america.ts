@@ -14,6 +14,16 @@ export const bankOfAmericaCaseStudy: CaseStudy = {
   productType: "Pre-trade, post-trade and reconciliation reporting product",
   featured: true,
   featuredAngle: "Strongest direct exposure to trading, market-risk data and treasury stakeholders",
+  discussionReady: true,
+  discussionRank: 3,
+  reportTypeLabel: "Trading, market-risk and treasury reconciliation reporting",
+  domainCoverage: [
+    "Market risk",
+    "Trading and treasury environments",
+    "Credit / counterparty exposure and limit monitoring",
+  ],
+  discussionTalkTrack:
+    "At Bank of America I supported technology and data changes across pre-trade and post-trade processes. Trade and transaction information moved through source systems, interfaces, risk platforms, operations systems, reconciliations and management reports. I worked with trading, market-risk, treasury, finance and operations stakeholders to convert missing trades, incorrect product or counterparty mappings, delayed feeds, stale market data and reconciliation breaks into reporting requirements, data-quality rules, test scenarios and control checkpoints. The reporting views covered pre-trade exceptions, trade-capture completeness, position reconciliation, counterparty-mapping issues, credit-limit utilisation, settlement ageing, market-data quality and breach remediation. This is my strongest example of supporting trading, trading-risk and treasury environments. I do not claim to have been the trader or quantitative modeller. I led the delivery and control environment that helps those specialists trust positions, exposures and exception signals.",
   evidenceStatus: "sanitised",
   summary:
     "I supported technology and data changes across pre-trade and post-trade processes, converting missing data, incorrect mappings, delayed feeds and reconciliation breaks into reporting requirements, control checkpoints and test scenarios.",
@@ -22,7 +32,7 @@ export const bankOfAmericaCaseStudy: CaseStudy = {
   problem:
     "Incomplete trades, incorrect product or counterparty mappings, delayed interfaces, stale market data and unresolved reconciliation breaks could distort positions, valuations, exposures and management reports.",
   riskContext:
-    "Market risk: incomplete trades, stale prices or incorrect product mappings can distort positions, valuations and exposures. Credit risk: incorrect counterparty or legal-entity mappings can affect exposure and limit monitoring. Operational risk: interface failures, reconciliation breaks, missing data, settlement failures, incorrect mappings and manual workarounds. Sanjay supported the technology, data and control environment around trading, risk, treasury and operations. He does not claim to have acted as the trader or quantitative modeller.",
+    "Market risk: incomplete trades, stale prices or incorrect product mappings can distort positions, valuations and exposures. Credit risk: incorrect counterparty or legal-entity mappings can affect exposure and limit monitoring. Operational risk: interface failures, reconciliation breaks, missing data, settlement failures, incorrect mappings and manual workarounds. I supported the technology, data and control environment around trading, risk, treasury and operations. I do not claim to have acted as the trader or quantitative modeller.",
   reportingUsers: [
     "Trading technology and operations",
     "Market-risk stakeholders",

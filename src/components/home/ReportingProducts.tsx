@@ -8,9 +8,9 @@ export function ReportingProducts() {
     <section className="section-space section-muted" id="reporting-products">
       <div className="container-site">
         <SectionHeading
-          eyebrow="Five reporting products"
-          title="A connected portfolio of decision-ready reporting"
-          lead="Each product is presented as an information product — with users, views, KPIs, controls and decisions — not only as a programme title."
+          eyebrow="Full reporting-product portfolio"
+          title="Five connected reporting products across regulated domains"
+          lead="I present each product as an information product — with users, views, KPIs, controls and decisions — not only as a programme title. My top three discussion products sit above; these complete the portfolio."
         />
         <div className="mt-10 grid gap-4 lg:grid-cols-2">
           {caseStudies.map((study, index) => (

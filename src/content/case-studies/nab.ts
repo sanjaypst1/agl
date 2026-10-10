@@ -14,6 +14,16 @@ export const nabCaseStudy: CaseStudy = {
   productType: "Product, credit and operational exception reporting product",
   featured: true,
   featuredAngle: "Credit-risk and operational-risk reporting with governed data-product thinking",
+  discussionReady: true,
+  discussionRank: 2,
+  reportTypeLabel: "Credit, collateral and product-exception reporting",
+  domainCoverage: [
+    "Credit risk",
+    "Collateral and exposure monitoring",
+    "Finance and lending-operations support",
+  ],
+  discussionTalkTrack:
+    "At NAB I worked inside the home-ownership domain on a reporting product that connected customer, home-loan, offset-account, deposit, collateral, property-valuation and transaction information. Product, credit-risk, finance and operations teams needed to trust relationships, not only aggregate totals, because an apparently correct balance could still hide an incorrect loan-to-offset or collateral mapping. I helped define reporting and control requirements, translated them into data mappings, reconciliation controls, dashboard views, test scenarios and release checkpoints, and supported reusable access-controlled datasets for governed self-service. This product demonstrates credit-risk concepts such as LVR, collateral coverage and valuation ageing, together with operational-risk exception management around settlements, interest calculation and remediation. The method transfers to environments where exposure, collateral and funding-related relationships must stay decision-ready for risk and finance stakeholders.",
   evidenceStatus: "sanitised",
   summary:
     "I contributed to a reporting product that connected customer, home-loan, offset-account, deposit, collateral, property-valuation and transaction information so product, risk, finance and operations teams could trust relationships—not only aggregate totals.",
