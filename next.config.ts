@@ -1,12 +1,19 @@
 import type { NextConfig } from "next";
 
+const isGithubPages = process.env.GITHUB_PAGES === "true";
+
 const nextConfig: NextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
-  // Prefer Vercel deployment. For GitHub Pages static export, set:
-  // output: "export",
-  // images: { unoptimized: true },
-  // trailingSlash: true,
+  ...(isGithubPages
+    ? {
+        output: "export" as const,
+        images: { unoptimized: true },
+        trailingSlash: true,
+        basePath: "/agl",
+        assetPrefix: "/agl",
+      }
+    : {}),
 };
 
 export default nextConfig;

@@ -6,7 +6,11 @@ export const siteConfig = {
   tagline: "Turning fragmented risk data into controlled, decision-ready solutions.",
   description:
     "Professional reporting-product case studies demonstrating personal delivery of risk, data and control reporting across regulated environments — with transparent Power BI, SQL and Databricks boundaries.",
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://risk-solutions-in-action.vercel.app",
+  url:
+    process.env.NEXT_PUBLIC_SITE_URL ??
+    (process.env.GITHUB_PAGES === "true"
+      ? "https://sanjaypst1.github.io/agl"
+      : "https://sanjaypst1.github.io/agl"),
   noIndex: process.env.NEXT_PUBLIC_NOINDEX === "true",
   email: "sanjaydt13@gmail.com",
   linkedin: "https://www.linkedin.com/in/sanjaysingh13",

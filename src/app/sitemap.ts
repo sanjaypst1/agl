@@ -2,6 +2,8 @@ import type { MetadataRoute } from "next";
 import { caseStudySlugs } from "@/content/case-studies";
 import { siteConfig } from "@/content/site";
 
+export const dynamic = "force-static";
+
 const staticPaths = [
   "/",
   "/experience",
