@@ -4,7 +4,7 @@ import { SectionHeading } from "@/components/ui/SectionHeading";
 
 export function RiskKnowledge() {
   return (
-    <section className="section-space bg-[rgba(255,255,255,0.35)]" id="risk-knowledge">
+    <section className="section-space section-mint" id="risk-knowledge">
       <div className="container-site">
         <SectionHeading
           eyebrow="Risk knowledge applied through delivery"

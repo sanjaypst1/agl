@@ -1,21 +1,28 @@
 import Link from "next/link";
-import { affiliationDisclaimer, primaryNav, secondaryNav, siteConfig } from "@/content/site";
+import {
+  affiliationDisclaimer,
+  primaryNav,
+  secondaryNav,
+  siteConfig,
+} from "@/content/site";
 
 export function Footer() {
   return (
-    <footer className="border-t border-line bg-navy-950 text-white">
-      <div className="container-site grid gap-10 py-14 md:grid-cols-[1.4fr_1fr_1fr]">
+    <footer className="site-footer border-t border-line py-8 pb-12 text-[0.9rem] text-muted">
+      <div className="container-site grid gap-8 md:grid-cols-[1.4fr_1fr_1fr]">
         <div>
-          <p className="text-sm uppercase tracking-[0.14em] text-aqua">{siteConfig.name}</p>
-          <p className="mt-3 max-w-md text-lg font-semibold">{siteConfig.owner}</p>
-          <p className="mt-3 max-w-md text-sm text-white/70">{siteConfig.tagline}</p>
+          <p className="font-[family-name:var(--font-display)] text-base font-bold text-navy-900">
+            {siteConfig.owner}
+          </p>
+          <p className="mt-1 text-sm">{siteConfig.name}</p>
+          <p className="mt-3 max-w-md text-sm leading-relaxed">{siteConfig.tagline}</p>
         </div>
         <div>
-          <p className="mb-3 text-sm font-semibold text-aqua">Explore</p>
-          <ul className="space-y-2 text-sm text-white/80">
+          <p className="mb-3 text-sm font-semibold text-navy-900">Explore</p>
+          <ul className="space-y-2 text-sm">
             {primaryNav.map((item) => (
               <li key={item.href}>
-                <Link href={item.href} className="hover:text-white">
+                <Link href={item.href} className="text-muted no-underline hover:text-navy-900">
                   {item.label}
                 </Link>
               </li>
@@ -23,11 +30,11 @@ export function Footer() {
           </ul>
         </div>
         <div>
-          <p className="mb-3 text-sm font-semibold text-aqua">Project</p>
-          <ul className="space-y-2 text-sm text-white/80">
+          <p className="mb-3 text-sm font-semibold text-navy-900">Project</p>
+          <ul className="space-y-2 text-sm">
             {secondaryNav.map((item) => (
               <li key={item.href}>
-                <Link href={item.href} className="hover:text-white">
+                <Link href={item.href} className="text-muted no-underline hover:text-navy-900">
                   {item.label}
                 </Link>
               </li>
@@ -35,13 +42,11 @@ export function Footer() {
           </ul>
         </div>
       </div>
-      <div className="border-t border-white/10">
-        <div className="container-site space-y-3 py-6 text-xs leading-relaxed text-white/60">
-          <p>{affiliationDisclaimer}</p>
-          <p>
-            © {new Date().getFullYear()} {siteConfig.owner}. Independent professional portfolio.
-          </p>
-        </div>
+      <div className="container-site mt-8 space-y-2 border-t border-line pt-6 text-xs leading-relaxed">
+        <p>{affiliationDisclaimer}</p>
+        <p>
+          © {new Date().getFullYear()} {siteConfig.owner}. Independent professional portfolio.
+        </p>
       </div>
     </footer>
   );

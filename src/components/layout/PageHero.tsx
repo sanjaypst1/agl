@@ -18,8 +18,9 @@ export function PageHero({
       <div className="container-site">
         {breadcrumbs ? <Breadcrumbs items={breadcrumbs} /> : null}
         {eyebrow ? <p className="eyebrow mb-3">{eyebrow}</p> : null}
-        <div className="kicker-line mb-4" />
-        <h1 className="display-title max-w-4xl text-4xl md:text-5xl">{title}</h1>
+        <h1 className="display-title max-w-[18ch] text-[clamp(2.05rem,4vw,3.4rem)]">
+          {title}
+        </h1>
         {lead ? <p className="lead mt-5">{lead}</p> : null}
         {children}
       </div>

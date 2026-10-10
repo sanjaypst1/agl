@@ -10,7 +10,7 @@ export function LifecycleStepper() {
   const current = lifecyclePhases.find((phase) => phase.id === active) ?? lifecyclePhases[0];
 
   return (
-    <section className="section-space bg-[rgba(255,255,255,0.35)]">
+    <section className="section-space section-mint">
       <div className="container-site">
         <SectionHeading
           eyebrow="Value chain"

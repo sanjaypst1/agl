@@ -22,8 +22,9 @@ export function SectionHeading({
       )}
     >
       {eyebrow ? <p className="eyebrow mb-3">{eyebrow}</p> : null}
-      <div className={cn("kicker-line mb-4", align === "center" && "mx-auto")} />
-      <h2 className="display-title text-3xl md:text-4xl">{title}</h2>
+      <h2 className="display-title max-w-[22ch] text-[clamp(1.7rem,3vw,2.7rem)]">
+        {title}
+      </h2>
       {lead ? <p className="lead mt-4">{lead}</p> : null}
     </div>
   );

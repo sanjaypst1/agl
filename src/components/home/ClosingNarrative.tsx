@@ -26,16 +26,14 @@ export function ClosingNarrative() {
         <EvidenceNote title="Evidence and confidentiality">
           {confidentialityStatement}
         </EvidenceNote>
-        <div className="overflow-hidden rounded-[1.5rem] bg-navy-950 px-6 py-12 text-white md:px-10">
-          <h2 className="max-w-3xl text-3xl font-semibold tracking-tight md:text-4xl">
+        <div className="overflow-hidden rounded-[var(--radius)] border border-line bg-[linear-gradient(120deg,rgba(217,242,255,0.95),rgba(168,230,207,0.45))] px-6 py-10 md:px-10">
+          <h2 className="display-title max-w-[28ch] text-[clamp(1.5rem,2.5vw,2.2rem)]">
             Risk solutions succeed when business meaning, trusted data and disciplined
             implementation come together.
           </h2>
           <div className="mt-8 flex flex-wrap gap-3">
-            <Button href="/contact" className="bg-white text-navy-900 hover:bg-paper">
-              Discuss a risk reporting challenge
-            </Button>
-            <Button href="/walkthrough" variant="secondary" className="border-white/20 bg-transparent text-white hover:border-aqua hover:text-aqua">
+            <Button href="/contact">Discuss a risk reporting challenge</Button>
+            <Button href="/walkthrough" variant="secondary">
               Open executive walkthrough
             </Button>
           </div>

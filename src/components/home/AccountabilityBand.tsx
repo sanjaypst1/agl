@@ -3,7 +3,7 @@ import { SectionHeading } from "@/components/ui/SectionHeading";
 
 export function AccountabilityBand() {
   return (
-    <section className="section-space bg-[rgba(255,255,255,0.35)]">
+    <section className="section-space section-muted">
       <div className="container-site">
         <SectionHeading
           eyebrow="Accountability boundaries"

@@ -39,7 +39,7 @@ export function RiskNetworkLazy() {
   }, []);
 
   return (
-    <section className="section-space bg-[rgba(255,255,255,0.35)]">
+    <section className="section-space section-muted">
       <div className="container-site">
         <SectionHeading
           eyebrow="Risk Data to Decision Network"

@@ -5,7 +5,7 @@ import { Badge } from "@/components/ui/Badge";
 
 export function ReportingProducts() {
   return (
-    <section className="section-space bg-[rgba(255,255,255,0.35)]" id="reporting-products">
+    <section className="section-space section-muted" id="reporting-products">
       <div className="container-site">
         <SectionHeading
           eyebrow="Five reporting products"

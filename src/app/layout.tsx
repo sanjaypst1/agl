@@ -1,23 +1,27 @@
 import type { Metadata } from "next";
-import { Manrope, Plus_Jakarta_Sans } from "next/font/google";
+import { DM_Sans, Manrope } from "next/font/google";
+import { BackToTop } from "@/components/layout/BackToTop";
 import { Footer } from "@/components/layout/Footer";
 import { Header } from "@/components/layout/Header";
+import { ScrollProgress } from "@/components/layout/ScrollProgress";
 import { SkipLink } from "@/components/layout/SkipLink";
 import { profile } from "@/content/profile";
 import { siteConfig } from "@/content/site";
 import { buildMetadata } from "@/lib/seo";
 import "./globals.css";
 
-const display = Plus_Jakarta_Sans({
+const display = Manrope({
   subsets: ["latin"],
   variable: "--font-display",
   display: "swap",
+  weight: ["500", "600", "700", "800"],
 });
 
-const body = Manrope({
+const body = DM_Sans({
   subsets: ["latin"],
   variable: "--font-body",
   display: "swap",
+  weight: ["400", "500", "600", "700"],
 });
 
 export const metadata: Metadata = buildMetadata({
@@ -67,9 +71,11 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
         <SkipLink />
+        <ScrollProgress />
         <Header />
         <main id="main-content">{children}</main>
         <Footer />
+        <BackToTop />
       </body>
     </html>
   );

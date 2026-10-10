@@ -15,7 +15,7 @@ export function RoleAlignmentPreview() {
   const items = roleAlignments.filter((item) => previewIds.includes(item.id));
 
   return (
-    <section className="section-space bg-[rgba(255,255,255,0.35)]">
+    <section className="section-space section-muted">
       <div className="container-site">
         <SectionHeading
           eyebrow="Role alignment"

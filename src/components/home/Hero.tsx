@@ -1,9 +1,10 @@
 "use client";
 
+import { ArrowRight } from "lucide-react";
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { Button } from "@/components/ui/Button";
-import { profile } from "@/content/profile";
+import { credibilityMetrics, profile } from "@/content/profile";
 import { siteConfig } from "@/content/site";
 
 export function Hero() {
@@ -14,10 +15,10 @@ export function Hero() {
     if (reduced || !rootRef.current) return;
     const ctx = gsap.context(() => {
       gsap.from("[data-hero-item]", {
-        y: 24,
+        y: 16,
         opacity: 0,
-        duration: 0.7,
-        stagger: 0.08,
+        duration: 0.65,
+        stagger: 0.07,
         ease: "power2.out",
       });
     }, rootRef);
@@ -25,52 +26,54 @@ export function Hero() {
   }, []);
 
   return (
-    <section ref={rootRef} className="section-space relative overflow-hidden pt-14">
-      <div className="pointer-events-none absolute inset-0 grid-fade opacity-60" aria-hidden />
-      <div className="container-site relative grid gap-10 lg:grid-cols-[1.25fr_0.75fr] lg:items-end">
-        <div>
-          <p data-hero-item className="eyebrow mb-4">
-            Risk Technology | Data Products | Reporting Transformation
-          </p>
-          <h1
-            data-hero-item
-            className="display-title max-w-4xl text-4xl sm:text-5xl lg:text-[3.4rem]"
-          >
-            Turning fragmented risk data into controlled, decision-ready solutions.
-          </h1>
-          <p data-hero-item className="lead mt-6">
-            I lead risk-sensitive technology, data and reporting initiatives from business problem
-            and KPI definition through data validation, implementation, self-service adoption and
-            operational support.
-          </p>
-          <div data-hero-item className="mt-8 flex flex-wrap gap-3">
-            <Button href="/case-studies">Explore the reporting products</Button>
-            <Button href="/delivery-method" variant="secondary">
-              See how I deliver
-            </Button>
-            <Button href="/technology" variant="ghost">
-              Review technology and domain depth
-            </Button>
-          </div>
+    <section
+      ref={rootRef}
+      className="relative flex min-h-[min(92vh,54rem)] items-center overflow-hidden py-10 md:py-16"
+      aria-labelledby="hero-title"
+    >
+      <div className="pointer-events-none absolute inset-0 grid-fade" aria-hidden />
+      <div className="container-site relative z-[1]">
+        <p data-hero-item className="hero-kicker">
+          Melbourne-based risk solutions leader focused on decision-ready reporting.
+        </p>
+        <p data-hero-item className="eyebrow mb-3">
+          {profile.name}
+        </p>
+        <h1
+          id="hero-title"
+          data-hero-item
+          className="display-title max-w-[16ch] text-[clamp(2.05rem,4.6vw,4.1rem)]"
+        >
+          {siteConfig.tagline}
+        </h1>
+        <p data-hero-item className="lead mt-4 max-w-[46rem]">
+          {profile.headline}
+        </p>
+        <p data-hero-item className="lead mt-3 max-w-[46rem]">
+          I lead risk-sensitive technology, data and reporting initiatives from business problem
+          and KPI definition through data validation, implementation, self-service adoption and
+          operational support.
+        </p>
+        <div data-hero-item className="mt-7 mb-8 flex flex-wrap gap-3">
+          <Button href="/case-studies">
+            Explore the reporting products
+            <ArrowRight className="h-4 w-4" aria-hidden />
+          </Button>
+          <Button href="/delivery-method" variant="secondary">
+            See how I deliver
+          </Button>
         </div>
-        <aside data-hero-item className="surface p-6 md:p-8" aria-label="Professional positioning">
-          <p className="text-sm uppercase tracking-[0.12em] text-teal">{siteConfig.name}</p>
-          <p className="mt-3 text-xl font-semibold text-navy-900">{profile.name}</p>
-          <p className="mt-2 text-sm text-muted">{profile.headline}</p>
-          <p className="mt-5 text-sm leading-relaxed text-navy-800">
-            {profile.supportingPositioning}
-          </p>
-          <dl className="mt-6 space-y-3 text-sm">
-            <div className="flex justify-between gap-4 border-t border-line pt-3">
-              <dt className="text-muted">Location</dt>
-              <dd className="font-medium">{profile.location}</dd>
-            </div>
-            <div className="flex justify-between gap-4 border-t border-line pt-3">
-              <dt className="text-muted">Residency</dt>
-              <dd className="font-medium">{profile.residency}</dd>
-            </div>
-          </dl>
-        </aside>
+        <ul className="mt-2 grid list-none grid-cols-1 gap-2.5 p-0 sm:grid-cols-2">
+          {credibilityMetrics.slice(0, 4).map((item) => (
+            <li key={item.id} data-hero-item className="chip">
+              <strong className="font-semibold text-navy-900">
+                {item.value}
+                {item.suffix}
+              </strong>{" "}
+              <span className="text-muted">{item.label}</span>
+            </li>
+          ))}
+        </ul>
       </div>
     </section>
   );
