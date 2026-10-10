@@ -1,0 +1,228 @@
+import type { CaseStudy } from "@/lib/types";
+
+export const merckCaseStudy: CaseStudy = {
+  id: "merck",
+  slug: "merck",
+  title: "Sales-Force Effectiveness, Consent and Data-Quality Reporting",
+  subtitle:
+    "When data status determines whether a business activity is permitted",
+  organisation: "Merck Pharmaceuticals",
+  role: "Global Program Manager",
+  period: "October 2015 to October 2019",
+  industry: "Pharmaceuticals · Regulated commercial operations",
+  budget: "USD 300M indicated portfolio budget",
+  productType: "Commercial, consent and data-quality reporting product",
+  featured: false,
+  featuredAngle: "Regulated reporting where consent status controls permitted activity",
+  evidenceStatus: "sanitised",
+  summary:
+    "I supported a mobile and data solution used by sales-force effectiveness users, connecting customer or healthcare-professional information, representative activity, engagement, communication and consent data into governed management views.",
+  situation:
+    "Commercial, compliance, product, data and technology stakeholders needed metrics, mappings, exception controls and management views in a regulated environment.",
+  problem:
+    "Consent was not merely a descriptive field. Status, source, channel, effective date, expiry and audit history influenced whether a communication was permitted. Incorrect consent status, failed interfaces or duplicate records could result in inappropriate business action.",
+  riskContext:
+    "Data-governance risk, compliance risk, operational risk, consent-control risk, interface risk, duplicate-record risk, inappropriate-contact risk and audit-traceability risk.",
+  reportingUsers: [
+    "Sales-force effectiveness teams",
+    "Commercial teams",
+    "Compliance",
+    "Product teams",
+    "Data teams",
+    "Technology",
+    "Territory leadership",
+    "Operational support",
+  ],
+  sourceInformation: [
+    "Customer / HCP records",
+    "Territory and representative assignments",
+    "Interaction and engagement records",
+    "Consent status and history",
+    "Communication channel and campaign data",
+    "Synchronisation and interface logs",
+  ],
+  reportingViews: [
+    { name: "Sales-Force Activity", detail: "Field activity visibility", status: "representative" },
+    { name: "Planned Versus Completed Interactions", detail: "Execution against planned engagement", status: "representative" },
+    { name: "Customer or Account Coverage", detail: "Coverage by territory and account", status: "representative" },
+    { name: "Consent Status and Expiry", detail: "Consent state, source, channel and expiry", status: "representative" },
+    { name: "Communication-Eligibility Exceptions", detail: "Contacts not eligible for communication", status: "representative" },
+    { name: "Email Reach and Engagement", detail: "Channel reach and engagement outcomes", status: "representative" },
+    { name: "Mobile-User Adoption", detail: "Field adoption of the mobile solution", status: "representative" },
+    { name: "Data Completeness and Duplicates", detail: "Completeness and duplicate-record exceptions", status: "representative" },
+    { name: "Synchronisation and Interface Failures", detail: "Interface and sync failures affecting trust", status: "representative" },
+    { name: "Territory and Product Performance", detail: "Territory and product performance views", status: "representative" },
+  ],
+  kpiExamples: [
+    "Planned versus completed interactions",
+    "Coverage by territory",
+    "Consent expiry ageing",
+    "Eligibility exceptions",
+    "Engagement by channel",
+    "Mobile adoption",
+    "Duplicate-record volume",
+    "Interface failure rate",
+    "Data completeness",
+  ],
+  informationModel: [
+    "Customer or Healthcare Professional",
+    "Territory",
+    "Representative",
+    "Interaction",
+    "Consent",
+    "Communication Channel",
+    "Campaign",
+    "Product",
+    "Engagement Outcome",
+  ],
+  dataControls: [
+    "Consent status and expiry controls",
+    "Audit history and traceability",
+    "Duplicate and completeness checks",
+    "Interface and synchronisation monitoring",
+    "Access control",
+  ],
+  decisionsSupported: [
+    "Which contacts were eligible for communication",
+    "Which consent records required remediation",
+    "Which territories were under-covered",
+    "Whether field adoption was improving",
+    "Which interfaces or data-quality problems needed attention",
+    "Which channels showed stronger engagement",
+    "Whether operational controls were functioning",
+  ],
+  technologyContribution: [
+    "Metric and mapping definition",
+    "Exception-control design",
+    "Management-view requirements",
+    "Coordination across data and technology specialists",
+  ],
+  accountability: [
+    "Worked with commercial, compliance, product, data and technology stakeholders",
+    "Defined required metrics, mappings, exception controls and management views",
+    "Coordinated design, testing, cutover, readiness and service transition across the wider regulated portfolio",
+  ],
+  stakeholders: [
+    { id: "sfe", name: "Sales-force effectiveness", role: "Activity and coverage consumers" },
+    { id: "compliance", name: "Compliance", role: "Consent and eligibility control meaning" },
+    { id: "commercial", name: "Commercial", role: "Engagement and performance outcomes" },
+    { id: "data", name: "Data & technology", role: "Mappings, interfaces and reporting build" },
+  ],
+  actions: [
+    "I treated consent status as a control that determines permitted action, not as a decorative dashboard field.",
+    "I insisted on source, effective date, expiry, channel and audit history remaining traceable.",
+  ],
+  deliveryPhases: [
+    "Requirements with compliance and commercial stakeholders",
+    "Information model and exception controls",
+    "Reporting views and adoption",
+    "Cutover, readiness and service transition",
+  ],
+  dataConsiderations: [
+    "Consent lineage and eligibility logic",
+    "No personal healthcare or customer identifiers disclosed",
+  ],
+  controls: [
+    "Consent and eligibility controls",
+    "Audit readiness and operational acceptance",
+  ],
+  testing: [
+    "Testing and cutover evidence for regulated change",
+  ],
+  implementation: [
+    "Controlled cutover and release coordination",
+  ],
+  transition: [
+    "Service transition with operational acceptance",
+  ],
+  adoption: [
+    "Mobile-user adoption and field effectiveness reporting",
+  ],
+  outcomes: [
+    {
+      id: "merck-ontime",
+      metric: "90%",
+      label: "On-time delivery achieved",
+      context: "Through disciplined prioritisation, risk mitigation and stakeholder alignment",
+      caseStudyId: "merck",
+      status: "verified",
+    },
+    {
+      id: "merck-availability",
+      metric: "35%",
+      label: "Improved system availability",
+      context: "Through modernisation, risk mitigation and operational adoption",
+      caseStudyId: "merck",
+      status: "verified",
+    },
+  ],
+  technologies: [
+    "Mobile and CRM platforms (sanitised)",
+    "Reporting and analytics tooling",
+    "Interface / synchronisation monitoring",
+  ],
+  capabilities: [
+    "reporting-analytics",
+    "governance",
+    "data-transformation",
+    "testing-readiness",
+    "hypercare-transition",
+  ],
+  personalOwned: [
+    "Metric and exception-control definition",
+    "Stakeholder alignment across compliance and commercial teams",
+    "Delivery, readiness and service-transition coordination",
+  ],
+  specialistContributions: [
+    "Detailed engineering build",
+    "Data engineering",
+    "Security assessment",
+    "Architecture approval",
+  ],
+  businessOwnersRetained: [
+    "Compliance policy ownership",
+    "Commercial priorities",
+    "Operational ownership of field activity",
+  ],
+  evidenceBoundaries: [
+    "Sanitised commercial and consent reporting narrative",
+    "Representative reporting views",
+    "No claim of clinical or patient-data product ownership beyond verified delivery scope",
+  ],
+  confidentialityBoundary:
+    "Healthcare professional identifiers, consent records, campaign content and proprietary systems are omitted.",
+  transferabilityRiskArchitecture:
+    "Shows regulated reporting where status, effective dates, definitions, traceability and exception handling determine permitted action.",
+  transferabilityEnergyMarkets:
+    "Both regulated pharmaceutical reporting and energy-risk reporting depend on authoritative data, correct status, valid effective dates, approved definitions, traceability, exception handling, access control, audit evidence and timely escalation.",
+  lessons: [
+    "Status fields can be controls",
+    "Traceability protects audit readiness",
+    "Interface failures are operational-risk events",
+  ],
+  relatedQuestions: ["q1-personal-solution", "q2-market-treasury"],
+  relatedCaseStudies: ["ubs", "nab", "bank-of-america"],
+  riskTypes: ["Compliance risk", "Operational risk", "Data risk"],
+  businessFunctions: ["Commercial", "Compliance", "Operations"],
+  reportingCapabilities: [
+    "KPI definition",
+    "Data modelling",
+    "Exception management",
+    "Governance",
+    "Operational transition",
+  ],
+  industries: ["Pharmaceuticals", "Regulated enterprise"],
+  deliveryPhaseTags: [
+    "Requirements",
+    "Controls",
+    "Testing",
+    "Release",
+    "Adoption",
+    "BAU transition",
+  ],
+  seo: {
+    title: "Merck | Sales-Force Effectiveness, Consent and Data-Quality Reporting",
+    description:
+      "Sanitised Merck case study on regulated commercial reporting where consent status and data quality determine permitted activity.",
+  },
+};

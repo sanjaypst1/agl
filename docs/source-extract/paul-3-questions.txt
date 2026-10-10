@@ -1,0 +1,298 @@
+﻿Sanjay, the strongest approach is to present the five reporting products as a connected portfolio, while being very precise about what you personally delivered. Start with one flagship example, usually UBS, then use NAB, Bank of America, Daimler and Merck to demonstrate breadth.
+Also, describe these as reports and dashboards you genuinely delivered or supported. Do not claim that you calculated VaR, priced derivatives or designed quantitative models unless that was part of your actual responsibility.
+Question 1: Provide an example of a risk, data or reporting solution you personally delivered
+“Certainly. Across my career, I have delivered five significant reporting and data products covering risk and controls, trading operations, lending, finance and commercial performance.
+My strongest example is a consolidated risk and control reporting solution that I personally delivered at UBS. I was positioned within technology and transformation, aligned to first-line risk and control, and supported technology, operations, risk and treasury stakeholders.
+The business problem was that risk information was spread across spreadsheets, project reports, incident records, control registers and remediation trackers. Senior management did not have one reliable view of control failures, overdue actions, technology dependencies or emerging operational risks.
+I personally led the requirements workshops, defined the KPI structure, agreed the authoritative data sources, documented thresholds and escalation rules, reviewed the information model, investigated data inconsistencies, validated the dashboard against source records and coordinated user-acceptance testing.”
+Reports and dashboard views delivered at UBS
+“The consolidated solution contained several connected reporting views:
+Executive risk overview, showing high and critical risks, deteriorating trends and matters requiring a decision.
+Control-effectiveness report, showing failed controls, control exceptions and recurring weaknesses.
+Incident and operational-risk report, showing significant incidents, repeat incidents and affected systems or processes.
+Remediation and action-ageing report, showing overdue actions, accountable owners and target dates.
+Data and reconciliation exceptions report, showing failed feeds, unresolved breaks and reporting-quality issues.
+Risk acceptance and governance report, showing accepted risks, approval status and upcoming expiration dates.
+These were connected views within a consolidated reporting product rather than six disconnected manual reports.”
+Risk knowledge demonstrated
+“The reports demonstrated working knowledge of operational-risk and governance concepts because they connected risks, controls, incidents, systems, owners, risk acceptances and remediation actions.
+They also supported trading and treasury stakeholders because technology incidents, failed interfaces, stale data and unresolved reconciliation breaks could affect the completeness or timeliness of transaction, position and exposure reporting.
+I was not calculating market risk or making trading decisions. My role was to make the supporting control and data environment transparent and actionable.”
+How you delivered it
+“I followed an end-to-end product lifecycle:
+First, I clarified the management decisions. I asked what management needed to know, what action should follow an amber or red indicator and which matters required escalation.
+Second, I defined the KPIs. For each measure, I documented the definition, purpose, calculation, source, owner, reporting frequency, threshold and drill-down requirement.
+Third, I developed the logical information model. We connected risk, control, incident, system, owner, issue and remediation action so that management could move from an executive indicator to the underlying problem.
+Fourth, I worked with the technical team on data mappings and transformations. This included standardising risk classifications, system names, ownership and action statuses.
+Fifth, I established validation controls. These included record-count reconciliation, duplicate checks, mandatory-field checks, stale-data flags and source-to-report traceability.
+Sixth, I reviewed the dashboard design. The executive view was concise, while risk managers and analysts could drill into the relevant system, control, issue or action.
+Finally, I coordinated testing, stakeholder sign-off, user guidance and BAU ownership.”
+Outcome
+“The solution replaced fragmented reporting with one governed view. It reduced manual consolidation, improved the consistency of risk information, identified overdue actions earlier and gave management clearer evidence for escalation and remediation decisions.
+That is directly relevant to AGL. The underlying data at AGL might include electricity and gas positions, valuations, counterparties, limits, collateral, liquidity measures and control exceptions, but the delivery discipline is the same.”
+
+The other four reporting products
+After explaining the UBS example, briefly demonstrate that it was not an isolated experience.
+2. NAB: Home Ownership product and risk reporting
+“At NAB, I worked within the Home Ownership domain, supporting product, lending operations, risk, finance, data and technology stakeholders.
+I contributed to a reporting product that connected customer, home-loan, offset-account, deposit, collateral, property-valuation and transaction information.
+The challenge was that a portfolio-level figure could appear correct even when the underlying relationship between a loan, offset account or collateral record was incorrectly mapped.”
+Legitimate reporting views
+Offset-account linkage exception report: loans without the correct offset relationship or accounts linked incorrectly.
+Collateral coverage report: exposure compared with property valuation and collateral position.
+Property-valuation ageing report: valuations approaching or exceeding review requirements.
+High-LVR portfolio report: concentration of loans within higher loan-to-value bands.
+Settlement and servicing exception report: failed settlements, manual adjustments and unresolved servicing issues.
+Customer-impact and defect report: incidents affecting interest calculation, account linkage or servicing.
+Deposit and offset-balance report: changes in offset balances and their impact on the product relationship.
+Risk understanding demonstrated
+“This product covered credit-risk and operational-risk concepts. The credit-risk dimension related to lending exposure, collateral coverage, property valuation and loan-to-value ratios. The operational-risk dimension included incorrect account mapping, failed settlements, manual adjustments, data-quality defects and customer impact.
+It also supported finance and product teams by improving the connection between product behaviour, customer balances, collateral and financial reporting.”
+Decisions supported
+Which collateral or valuation exceptions needed remediation
+Whether account-linkage problems could affect customers
+Where manual servicing activity was increasing
+Which high-LVR segments required closer monitoring
+Whether a release was safe to implement
+Which product controls required improvement
+
+3. Bank of America: Pre-trade and post-trade data-control reporting
+“At Bank of America, I supported technology and data changes across pre-trade and post-trade processes. I worked with transaction data moving through source systems, interfaces, risk platforms, operations systems, reconciliations and management reports.
+My work included identifying missing data, incorrect product and counterparty mappings, delayed feeds and reconciliation breaks, then converting those issues into reporting requirements, control checkpoints and test scenarios.”
+Legitimate reporting views
+Pre-trade control exception report: rejected transactions, authority failures, eligibility exceptions and limits approaching thresholds.
+Trade-capture completeness report: missing trades, missing mandatory attributes and duplicate transactions.
+Position reconciliation report: differences between front-office, risk and operations positions.
+Counterparty-mapping exception report: missing or incorrect legal-entity and counterparty classifications.
+Settlement-failure and ageing report: failed transactions, value at risk operationally and length of unresolved breaks.
+Market-data quality report: stale, missing or invalid market and reference data.
+Valuation exception report: differences requiring investigation between systems or reporting layers.
+Interface health report: delayed and failed data feeds affecting downstream reports.
+Market, credit and operational-risk understanding
+“This experience gave me practical exposure to three different risk dimensions.
+Market risk: Positions and valuations could be misstated if transactions, market data or product mappings were incomplete.
+Credit risk: Incorrect counterparty mappings or delayed exposure information could affect credit-limit monitoring.
+Operational risk: Failed interfaces, missing data, settlement failures, reconciliation breaks and manual workarounds could result in incorrect or delayed reporting.
+From a governance perspective, exceptions required ownership, materiality assessment, escalation, remediation dates and evidence of closure.”
+Trading lifecycle knowledge demonstrated
+“The work gave me an understanding of the flow from pre-trade controls and execution through trade capture, enrichment, valuation, position calculation, limit monitoring, confirmation, settlement, reconciliation and reporting.
+I did not operate as the trader or quantitative modeller. I supported the technology, data and control environment that allowed trading, market-risk, treasury and operations teams to trust the resulting information.”
+
+4. Daimler: Finance and operational-performance reporting
+“At Daimler, I delivered Power BI reporting with business, finance, delivery and technology teams. I helped define the measures, data requirements, reporting frequency, filters and drill-down paths. I reviewed prototypes, validated figures against source reports and coordinated user testing.”
+Legitimate reporting views
+Budget-versus-actual report
+Forecast-variance dashboard
+Project-cost and schedule report
+Milestone and dependency dashboard
+Supplier-performance report
+Open risk and issue report
+Overdue action report
+System incident and service-level report
+Product or market performance dashboard
+Finance and operational-risk understanding
+“This report supported finance through budget, actual and forecast information. It supported operational-risk management by showing delivery exceptions, system incidents, overdue issues and supplier dependencies.
+It also strengthened governance because every material variance or issue had an owner, status, threshold and agreed action.”
+Decisions supported
+Budget reallocation
+Forecast adjustments
+Supplier escalation
+Recovery planning
+Resource prioritisation
+Release decisions
+Risk-remediation priorities
+
+5. Merck: Sales-force effectiveness and consent reporting
+“At Merck, I supported a mobile and data solution used by sales-force effectiveness users. The reporting connected customer or healthcare-professional information, representative activity, engagement, communication and consent data.
+I worked with commercial, compliance, product, data and technology stakeholders to define the required metrics, mappings, exception controls and management views.”
+Legitimate reporting views
+Sales-force activity report
+Planned-versus-completed interaction report
+Customer or account coverage dashboard
+Consent-status and expiry report
+Communication-eligibility exception report
+Email reach and engagement dashboard
+Mobile-user adoption report
+Data-completeness and duplicate-record report
+Synchronisation and interface-failure report
+Territory and product-performance report
+Operational-risk and governance understanding
+“Consent was not simply another dashboard field. Its status could determine whether a communication was permitted. Therefore, the source, effective date, expiry, channel and audit history had to remain traceable.
+This demonstrated operational-risk, compliance and data-governance experience because an incorrect consent status, failed interface or duplicate customer record could result in an inappropriate business action.”
+
+Question 2: What experience have you had with market risk, treasury and trading?
+“My direct experience is in supporting the technology, data, control and reporting environment around trading, market-risk, treasury, finance and operations functions. I have not worked as a trader or quantitative-risk modeller, and I would not overstate that. My strength is understanding how risk information moves through the environment and ensuring it is complete, controlled, traceable and useful for decision-making.
+My strongest exposure comes from UBS and Bank of America.
+At Bank of America, I worked with pre-trade and post-trade information moving through source systems, interfaces, risk platforms, operations workflows, reconciliations and management reports. I dealt with issues such as missing transactions, incorrect product and counterparty mappings, delayed feeds, stale data, settlement failures and reconciliation differences.
+That gave me exposure to transactions, positions, exposures, limits, counterparties, valuations, data lineage and breaches.
+At UBS, I delivered consolidated risk and control reporting that gave risk, operations, treasury and technology stakeholders clearer visibility of control failures, data issues, system dependencies, overdue actions and emerging operational risks.”
+Market-risk knowledge
+“I understand market risk as the possibility of financial loss caused by movements in market variables such as prices, interest rates and foreign exchange, together with changes in positions and volumes.
+In an energy environment, that extends to electricity, gas and environmental-product prices, customer-demand uncertainty, generation availability and renewable output.
+The risk function needs confidence that trades are captured completely, market data is current, positions are correctly aggregated, valuations are reliable and exposure remains within approved limits.”
+Relevant reports from your experience
+Position reconciliation report
+Valuation exception report
+Market-data quality report
+Limit-utilisation and breach report
+Trading-feed health report
+High-severity risk dashboard
+Stress-scenario output dashboard, if you supported one
+Do not say you calculated VaR unless you actually did. Say you supported the data and reporting environment around market-risk calculations.
+Credit-risk knowledge
+“I understand credit risk as the possibility that a counterparty or borrower cannot meet its obligations.
+At NAB, this was reflected through lending exposure, collateral coverage, property valuation and loan-to-value information.
+In the Bank of America and UBS environment, it related more closely to counterparty identification, exposure, limit monitoring, settlement status and the reliability of counterparty data.”
+Relevant reports
+Counterparty exposure report
+Credit-limit utilisation report
+Counterparty-mapping exception report
+Collateral coverage report
+High-LVR portfolio report
+Overdue settlement report
+Concentration report by counterparty, borrower group or portfolio
+Operational-risk knowledge
+“Operational risk has been a particularly strong part of my role. It includes failures involving people, processes, systems, data, controls, vendors or external events.
+Examples I have managed include failed interfaces, stale data, reconciliation breaks, incorrect mappings, manual workarounds, system incidents, access issues, failed controls and overdue remediation actions.”
+Relevant reports
+Risk and control dashboard
+Incident and loss-event report
+Control-effectiveness report
+Reconciliation-break report
+Data-quality dashboard
+Access-control exception report
+Vendor and dependency-risk report
+Remediation-ageing report
+Risk-acceptance expiry report
+Treasury knowledge
+“My understanding of treasury covers liquidity, funding, interest-rate risk, foreign-exchange exposure, financial-counterparty risk, collateral and cash-flow requirements.
+I also understand that market risk and treasury risk are connected. A market movement can affect the value of a position, but it can also create collateral calls, funding pressure or short-term liquidity requirements.
+My role has been to support the data integration, exception management, controls and reporting required by treasury and risk stakeholders rather than making treasury dealing decisions.”
+Relevant treasury-oriented reporting
+Cash and liquidity-position report
+Funding-maturity report
+FX-exposure report
+Interest-rate exposure report
+Collateral and margin-requirement report
+Financial-counterparty exposure report
+Treasury-limit utilisation report
+Liquidity stress-scenario report
+Phrase these carefully:
+“I understand and have supported the data and control environment surrounding these reports.”
+Only say you personally delivered a specific treasury report if that is factually accurate.
+Governance-framework knowledge
+“Across these projects, I have worked within governance frameworks covering risk appetite, policies, standards, limits, controls, key risk indicators, incidents, breaches, escalation, remediation and committee reporting.
+My technology-risk roles generally sat within the first line of defence. We owned and managed the technology, data, delivery and operational risks arising from our activity.
+We worked with second-line market risk, operational risk, compliance and treasury teams that provided independent oversight and challenge. Internal Audit operated as the third line.
+At AGL, I understand EMTR provides independent oversight of trading and treasury risks. The Senior Risk Solutions Lead enables that oversight by delivering reliable data products, calculations, controls, dashboards and reporting capabilities.”
+Complete interview answer
+“My experience with trading, market risk and treasury is primarily through technology, data, operations and risk-transformation delivery at UBS and Bank of America.
+I have worked with transaction data moving through pre-trade controls, trade capture, interfaces, risk calculations, position reporting, confirmation, settlement and reconciliation. I have investigated missing transactions, incorrect mappings, delayed feeds, stale data and reconciliation differences, and converted those findings into requirements, controls, test scenarios and management reporting.
+I understand the difference between market risk, credit risk and operational risk. Market risk concerns changes in prices, rates, positions and volumes. Credit risk concerns the inability of a counterparty or borrower to meet its obligations. Operational risk concerns failures in people, processes, systems, data and controls.
+I also understand the governance around those risks, including appetite, policies, limits, controls, indicators, breaches, escalation, remediation and committee reporting.
+I have not worked as a trader or quantitative modeller. My value is in making sure transaction, position, exposure and control information is complete, reconciled, traceable and presented in a way that supports decisions by risk, treasury, trading, finance and operations stakeholders.
+At AGL, I would transfer that experience into the electricity, gas and environmental-products environment while working with EMTR specialists who own the energy-market methodology.”
+
+Question 3: How much exposure have you had to Power BI, SQL and Databricks?
+“My experience is strongest from a reporting-product, delivery, requirements, validation and adoption perspective.
+I can confidently lead a Power BI and Databricks-enabled reporting initiative end to end, including the use case, KPIs, data requirements, controls, roadmap, testing and adoption. However, I would not position myself as an advanced Power BI developer, SQL programmer or Databricks engineer.”
+Power BI
+“My Power BI exposure includes defining the purpose and audience of the dashboard, agreeing KPI definitions, identifying data sources, designing executive and detailed views, establishing filters and drill-down paths, reviewing prototypes, reconciling results, coordinating UAT and supporting adoption.
+At UBS, the report allowed leadership to move from the overall risk position into an affected control, system, owner or action.
+At NAB, users needed to move from portfolio-level information into specific product, loan, offset-account, collateral or transaction exceptions.
+At Daimler, I worked with business and finance teams to define measures, filters, reporting frequency, variance views and drill-down requirements.
+At Merck, the reporting needed to support analysis by territory, customer, representative, engagement type, consent status and product.”
+Capabilities you can discuss
+Semantic models and reusable measures
+KPI cards and trend views
+Filters and slicers
+Drill-through and detailed views
+Row-level security
+Scheduled refresh
+Exception highlighting
+Role-based dashboards
+Power BI Service publishing and access
+User testing and reconciliation
+Self-service reporting
+Honest level statement
+“I can lead requirements, wireframes, KPI design, prototype review, data validation, UAT and business adoption. I work with Power BI developers for advanced DAX, performance optimisation and production configuration.”
+
+SQL
+“My SQL knowledge is practical and investigative.
+I understand tables, views, joins, filters, aggregations, mapping tables, duplicates, null values, record counts, date logic and source-to-target comparisons.
+I use that understanding when a report does not reconcile with the source.”
+Example
+“If a UBS dashboard showed 120 overdue actions but the control register showed 116, I would structure the investigation around several possibilities:
+Is a join creating duplicate records?
+Are closed actions still included?
+Are the report and source using different effective dates?
+Is the status mapping incorrect?
+Is the report counting actions, issues or unique risks?
+Did the latest data load complete successfully?
+I can interpret the query logic and work effectively with analysts and engineers. I rely on specialist developers for complex SQL development, optimisation and production engineering.”
+
+Databricks
+“My Databricks exposure is at the platform, data-product and delivery level.
+I understand how it can be used to:
+Ingest data from operational and analytical systems
+Transform and standardise raw data
+Apply data-quality checks
+Process large datasets
+Create curated and reusable data products
+Provide governed access
+Maintain lineage
+Support Power BI reporting
+Enable advanced analytics, automation and AI
+At NAB, an architecture of this nature supports the controlled combination of customer, product, account, loan, collateral and transaction information.
+At AGL, the equivalent could combine trades, positions, market prices, valuations, counterparties, limits, collateral, liquidity information and control exceptions.”
+Honest level statement
+“I can define the business use case, source-to-target requirements, quality rules, access requirements, acceptance criteria and delivery roadmap. I can coordinate architects and data engineers and validate whether the resulting data product meets the business need.
+I would rely on engineers for advanced Spark code, production notebooks, cluster configuration and detailed platform engineering.”
+
+How the five products demonstrate AGL’s complete requirement
+1. Leading reporting, analytics and data transformation
+UBS: Consolidated risk, control, incident and remediation reporting
+NAB: Home-loan, offset-account and collateral reporting
+Bank of America: Pre-trade, post-trade and reconciliation reporting
+Daimler: Finance, project and operational-performance dashboards
+Merck: Commercial, consent and sales-force analytics
+2. Defining reporting requirements and KPIs
+Examples include:
+Market risk: position differences, valuation exceptions, stale market data and limit utilisation
+Credit risk: counterparty exposure, collateral coverage, LVR and settlement exposure
+Operational risk: failed controls, incidents, failed feeds, reconciliation breaks and overdue actions
+Treasury: liquidity, funding, FX, collateral and counterparty indicators
+Finance: budget variance, forecast variance and cost performance
+Commercial: activity, coverage, consent, engagement and adoption
+3. Supporting trading and trading-risk functions
+Trade-capture completeness
+Pre-trade control exceptions
+Position reconciliation
+Market-data quality
+Valuation exceptions
+Limit monitoring
+Settlement exceptions
+Interface failures
+4. Supporting treasury and finance
+Liquidity and funding information
+Counterparty and collateral information
+Budget and forecast reporting
+Cash-flow and financial variance
+Deposit and offset-account behaviour
+Outstanding settlement information
+5. Supporting governance
+Risk appetite and tolerance
+Policies and standards
+Limits and thresholds
+Controls and control effectiveness
+Incidents and breaches
+Escalation
+Risk acceptance
+Remediation tracking
+Management and committee reporting
+Strong closing statement
+“Across the five reporting products, the common pattern has been turning fragmented operational information into governed and decision-oriented reporting.
+At UBS, the focus was risks, controls and remediation. At NAB, it was loan, offset and collateral information. At Bank of America, it was pre-trade, post-trade and reconciliation data. At Daimler, it was finance and operational performance. At Merck, it was commercial activity, consent and data quality.
+Together, these examples demonstrate that I understand market, credit and operational-risk concepts; have supported trading, treasury, finance and risk stakeholders; and can lead the full reporting-product lifecycle using Power BI, SQL and Databricks-enabled architectures.
+I would bring that experience to AGL while relying on EMTR specialists for the detailed energy-market and quantitative methodologies. My role would be to ensure those methodologies are supported by trusted data, controlled transformation, usable reporting and sustainable adoption.”
+The main improvement here is that your five examples now demonstrate different parts of the AGL requirement without presenting you as an energy trader, advanced developer or quantitative modeller.
